@@ -32,6 +32,10 @@ To access a container interactively for debugging purposes, use the `bash` comma
 ```bash
 docker run -it --rm curlimages/curl /bin/bash
 ```
+You will see an interactive shell. Run the curl command from the shell
+```bash
+$ curl http://<web-ip>
+```
 ### Summary
 
 1. Run the first container with `docker run -d --name container1 ...`.
