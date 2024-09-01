@@ -1,9 +1,5 @@
 # Docker Hands-On with Nginx: Multiple Containers
 
-In this guide, we will set up three Nginx containers running on different ports using Docker. We will also cover cleanup steps to remove the containers and images afterward.
-
-## Step-by-Step Guide
-
 ### 1. Run Nginx Containers
 
 We will run three Nginx containers, each serving on different ports.
